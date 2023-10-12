@@ -22,3 +22,11 @@ $json_file_path = plugin_dir_path(__FILE__) . 'genere-citations.json';
 
 // Chargez le contenu du fichier JSON
 $citations = json_decode(file_get_contents($json_file_path), true);
+
+// Fonction pour obtenir une citation aléatoire
+function obtenir_citation()
+{
+    global $citations;
+    $citation = $citations[array_rand($citations)];
+    return $citation['citation'] . " - " . $citation['auteur'];
+}
