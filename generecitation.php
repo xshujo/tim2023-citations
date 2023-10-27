@@ -3,7 +3,7 @@
 Plugin Name: Générateur de citations aléatoires
 Description: Génère des citations aléatoires après un certain délai.
 Version: 1.0
-Author: Stéphanie Guerrier
+Author: DiversiTIM
 */
 
 
@@ -30,3 +30,5 @@ function obtenir_citation()
     $citation = $citations[array_rand($citations)];
     return $citation['citation'] . " - " . $citation['auteur'];
 }
+
+add_shortcode('commentaires', 'obtenir_citation');
