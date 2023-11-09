@@ -8,7 +8,7 @@ Author: DiversiTIM
 function enfiler_script_css()
 {
     $version_css =  filemtime(plugin_dir_path(__FILE__) . 'style.css');
-    $version_js = filemtime(plugin_dir_path(__FILE__) . 'js/carrousel.js');
+    $version_js = filemtime(plugin_dir_path(__FILE__) . 'citations.js');
     wp_enqueue_style(
         'style_generateur_citations',
         plugin_dir_url(__FILE__) . 'style.css',
