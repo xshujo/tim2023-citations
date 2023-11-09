@@ -5,25 +5,26 @@ Description: Génère des citations aléatoires après un certain délai.
 Version: 1.0
 Author: DiversiTIM
 */
-// Fonction pour obtenir une citation aléatoire
-function obtenir_citation()
+function enfiler_script_css()
 {
-    // Tableau de citations
-    // Chemin du fichier JSON
-    $json_file_path = plugin_dir_path(__FILE__) . 'genere-citations.json';
-    //echo $json_file_path;
-
-
-    // Chargez le contenu du fichier JSON
-    $citations = json_decode(file_get_contents($json_file_path), true);
-    $index = array_rand($citations);
-    $citation = $citations[$index];
-    //echo "index = " . $index;
-    return $citation['citation'] . " - " . $citation['auteur'];
+    $version_css =  filemtime(plugin_dir_path(__FILE__) . 'style.css');
+    $version_js = filemtime(plugin_dir_path(__FILE__) . 'js/carrousel.js');
+    wp_enqueue_style(
+        'style_generateur_citations',
+        plugin_dir_url(__FILE__) . 'style.css',
+        array(),
+        $version_css
+    );
+    wp_enqueue_script(
+        'js_citations',
+        plugin_dir_url(__FILE__) . 'citations.js',
+        array(),
+        $version_js,
+        true
+    );
 }
-
-// Shortcode pour afficher la citation et actualiser en utilisant JavaScript
-function affiche_temoignage()
+add_action('wp_enqueue_scripts', 'enfiler_script_css');
+function affiche_citation()
 {
     return '<section>
         <blockquote id="citation"></blockquote>
@@ -31,4 +32,4 @@ function affiche_temoignage()
       </section>';
 }
 
-add_shortcode('citations', 'citation_aleatoire');
+add_shortcode('citations', 'affiche_citation');
