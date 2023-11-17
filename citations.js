@@ -2,43 +2,41 @@
 const citationsData = [
   {
     citation:
-      "L'intégration multimédia au Collège de Maisonneuve m'a ouvert de nouvelles perspectives.",
-    auteur: "Alice Dupont",
+      "institution chaleureuse,  les Québécois sont tellement spéciaux!  accueillants,  souriants, que des gens heureux,  des profs dévoués,  vers un art nouveau, si je reprends Pauline julien. ",
+    auteur: "Johanne Loken (Ancienne Timienne 2019)",
+  },
+  {
+    citation: "La meilleur technique du collège Maisonneuve, le TIM582.A1",
+    auteur: "Jonathan Grenier (Ancien Timien 2020)",
   },
   {
     citation:
-      "Les projets collaboratifs en intégration multimédia sont incroyablement enrichissants.",
-    auteur: "Jean Tremblay",
+      "Excellent travail fait dans ce département pour la motivation et la dynamique des enseignants et des jeunes qui auront à la fin , un très bon travail grâce à ce concept que nous je félicite     Bravo.",
+    auteur: "Louise Soucy",
   },
   {
     citation:
-      "J'ai appris tellement de choses pratiques en intégration multimédia.",
-    auteur: "Marie Leclerc",
+      "Excellent travail fait dans ce département pour la motivation et la dynamique des enseignants et des jeunes qui auront à la fin , un très bon travail grâce à ce concept que nous n 'avons pas en France !!!",
+    auteur: "Isabelle Gros-Dubois",
   },
   {
     citation:
-      "L'approche pédagogique en intégration multimédia est très interactive.",
-    auteur: "Pierre Gagnon",
+      "Bravo! à ces formations, qui conduisent à de très bons emplois, ce qui prouve que l'instruction, la formation, l'apprentissage et les stages en industries, sont tributaires d'une sécurité d'emplois et de nouveaux défis.",
+    auteur: "Jean Longpre ",
   },
   {
     citation:
-      "Les professeurs sont passionnés par leur domaine en intégration multimédia.",
-    auteur: "Sophie Martin",
+      "Vous avez entre Vos Mains la Créativité! exprimez Vous, allez au profond de celle-ci en Nous retransmettant l'émotion du moment!  et c'est Vous qui en sortira grandit a chaque expérience! Vibré l'instant Présent...",
+    auteur: "RS Lafleur ",
   },
   {
     citation:
-      "J'ai été surpris par la variété des projets en intégration multimédia.",
-    auteur: "Luc Boucher",
+      "Le mouvement et la dinamique du groupe ne doit jamais fléchir et participer à tout moment à  la bonne marche de l'équipe et nous autres qui les suivons, tous devons si on le peut les soutenir dans leurs projets présents et futurs bonne chance à tous ",
+    auteur: "Gabriel Crisante",
   },
   {
-    citation:
-      "L'intégration multimédia m'a permis de développer ma créativité.",
-    auteur: "Isabelle Roy",
-  },
-  {
-    citation:
-      "Les compétences acquises en intégration multimédia sont très utiles sur le marché du travail.",
-    auteur: "Martin Lavoie",
+    citation: "La meilleure école pour apprendre le multimédia à Montréal !",
+    auteur: "Xavier Marchand (Enseignant retraité du TIM)",
   },
   {
     citation:
