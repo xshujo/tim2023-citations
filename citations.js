@@ -6,7 +6,7 @@ const citationsData = [
     auteur: "Johanne Loken (Ancienne Timienne 2019)",
   },
   {
-    citation: "La meilleure technique du Collège Maisonneuve, le TIM582.A1",
+    citation: "La meilleure technique du Collège Maisonneuve, le TIM 582.A1",
     auteur: "Jonathan Grenier (Ancien Timien 2020)",
   },
   {
@@ -63,8 +63,8 @@ function chargerNouvelleCitation() {
   document.getElementById("auteur").textContent = `- ${auteur}`;
 }
 
-// Charger une nouvelle citation toutes les 3 secondes
-setInterval(chargerNouvelleCitation, 3000);
+// Charger une nouvelle citation toutes les 5 secondes
+setInterval(chargerNouvelleCitation, 5000);
 
 // Charger une première citation au chargement de la page
 chargerNouvelleCitation();
