@@ -3,8 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-  margin: 0 10rem;
+  margin: 0 2rem;
+  @media only screen and (min-width: 768px) {
+    margin: 0 10rem;
+  }
 }
 
 //Témoignages
@@ -13,7 +15,9 @@
   font-size: clamp(1.375rem, 0.5938rem + 2.5vw, 2rem);
   letter-spacing: 0.075rem;
   text-align: right;
-  margin: 3rem 0 1rem;
+  @media only screen and (min-width: 768px) {
+    margin: 3rem 0 1rem;
+  }
 }
 //Auteur
 #auteur {
