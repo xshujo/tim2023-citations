@@ -2,7 +2,7 @@
 const citationsData = [
   {
     citation:
-      "institution chaleureuse,  les Québécois sont tellement spéciaux!  accueillants,  souriants, que des gens heureux,  des profs dévoués,  vers un art nouveau, si je reprends Pauline julien. ",
+      "institution chaleureuse,  les Québécois sont tellement spéciaux!  accueillants,  souriants, que des gens heureux,  des profs dévoués, vers un art nouveau, si je reprends Pauline julien. ",
     auteur: "Johanne Loken (Ancienne Timienne 2019)",
   },
   {
@@ -11,13 +11,13 @@ const citationsData = [
   },
   {
     citation:
-      "Excellent travail fait dans ce département pour la motivation et la dynamique des enseignants et des jeunes qui auront à la fin , un très bon travail grâce à ce concept que nous je félicite     Bravo.",
+      "Excellent travail fait dans ce département pour la motivation et la dynamique des enseignants et des jeunes qui auront à la fin , un très bon travail grâce à ce concept que nous je félicite Bravo.",
     auteur: "Louise Soucy",
   },
   {
     citation:
-      "Excellent travail fait dans ce département pour la motivation et la dynamique des enseignants et des jeunes qui auront à la fin , un très bon travail grâce à ce concept que nous n 'avons pas en France !!!",
-    auteur: "Isabelle Gros-Dubois",
+      "Le programme TIM est une expérience unique qui permet de développer des compétences techniques et créatives de manière enrichissante et stimulante.",
+    auteur: "Stéphanie Guerrier (Finissante TIM 2024)",
   },
   {
     citation:
@@ -35,18 +35,19 @@ const citationsData = [
     auteur: "Gabriel Crisante",
   },
   {
-    citation: "La meilleure école pour apprendre le multimédia à Montréal !",
-    auteur: "Xavier Marchand (Enseignant retraité du TIM)",
+    citation:
+      "Au TIM, l'apprentissage se fait de manière engageante avec des enseignants enthousiastes, favorisant la découverte de sujets créatifs et la résolution de défis éducatifs.",
+    auteur: "Gregory Osorio Rivera (Finissant TIM 2024)",
   },
   {
     citation:
-      "C'est une formation stimulante qui m'a préparé à l'avenir numérique.",
-    auteur: "Caroline Dubois",
+      "Le programme offre une expérience immersive dans le monde du multimédia, avec des enseignants passionnés et des projets stimulants qui enrichissent mes compétences créatives et techniques.",
+    auteur: "Taïsha Dorval-Mbele (Finissante TIM 2024)",
   },
   {
     citation:
-      "Je recommande vivement la technique d'intégration multimédia au Collège de Maisonneuve.",
-    auteur: "François Bergeron",
+      "Être au TIM c'est une expérience qui va au-delà des écrans, transformant chaque projet en une aventure immersive et enrichissante.",
+    auteur: "Kajanthan Seevarathinam (Finissant TIM 2024)",
   },
 ];
 
