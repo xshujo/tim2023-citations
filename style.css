@@ -1,42 +1,39 @@
 .genCite {
-  width: 70vw;
-  height: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 2rem;
+  width: 70vw !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin: 0 2rem !important;
 }
 .genCite #citation {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
-  letter-spacing: 0.05rem;
-  text-align: left;
+  width: 100% !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem) !important;
+  letter-spacing: 0.05rem !important;
+  text-align: left !important;
 }
 @media only screen and (min-width: 768px) {
   .genCite #citation {
-    margin: 3rem 0 1rem;
+    margin: 3rem 0 1rem !important;
   }
 }
 .genCite #auteur {
-  width: 100%;
+  width: 100% !important;
   font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem) !important;
-  font-style: italic;
-  color: #9ec9e7;
-  text-align: right;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-style: italic !important;
+  color: #9ec9e7 !important;
+  text-align: right !important;
+  margin: 0 !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 @media only screen and (min-width: 768px) {
   .genCite {
-    width: 60vw;
-    margin: 0 10rem;
+    width: 60vw !important;
+    margin: 0 20vw !important;
   }
 }
 @media only screen and (min-width: 1024px) {
   .genCite {
-    width: 50vw;
-    height: 20vw;
+    width: 50vw !important;
   }
 }/*# sourceMappingURL=style.css.map */
