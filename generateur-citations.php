@@ -24,10 +24,10 @@ function enfiler_script_css()
 add_action('wp_enqueue_scripts', 'enfiler_script_css');
 function affiche_citation()
 {
-    return '<div class="genCite">
-        <blockquote id="citation">- La meilleure école pour apprendre le multimédia à Montréal !</blockquote>
-        <p id="auteur">Xavier Marchand (Enseignant retraité du TIM)</p>
-      </div>';
+    return "<div class='genCite'>
+        <blockquote id='citation'>- La meilleure école pour apprendre le multimédia à Montréal !</blockquote>
+        <p id='auteur'>Xavier Marchand (Enseignant retraité du TIM)</p>
+      </div>";
 }
 
 add_shortcode('citations', 'affiche_citation');

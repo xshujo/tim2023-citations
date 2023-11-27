@@ -8,6 +8,31 @@
   align-items: center;
   margin: 0 2rem;
 
+  //Témoignages
+  #citation {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+    letter-spacing: 0.05rem;
+    text-align: left;
+
+    @media only screen and (min-width: 768px) {
+      margin: 3rem 0 1rem;
+    }
+  }
+
+  //Auteur
+  #auteur {
+    width: 100%;
+    font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem) !important;
+    font-style: italic;
+    color: #9ec9e7;
+    text-align: right;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+  }
+
   @media only screen and (min-width: 768px) {
     width: 60vw;
     margin: 0 10rem;
@@ -17,29 +42,4 @@
     width: 50vw;
     height: 20vw;
   }
-}
-
-//Témoignages
-#citation {
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
-  letter-spacing: 0.05rem;
-  text-align: left;
-
-  @media only screen and (min-width: 768px) {
-    margin: 3rem 0 1rem;
-  }
-}
-
-//Auteur
-#auteur {
-  width: 100%;
-  font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem) !important;
-  font-style: italic;
-  color: #9ec9e7;
-  text-align: right;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
 }

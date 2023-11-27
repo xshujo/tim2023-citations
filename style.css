@@ -6,6 +6,28 @@
   align-items: center;
   margin: 0 2rem;
 }
+.genCite #citation {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
+  letter-spacing: 0.05rem;
+  text-align: left;
+}
+@media only screen and (min-width: 768px) {
+  .genCite #citation {
+    margin: 3rem 0 1rem;
+  }
+}
+.genCite #auteur {
+  width: 100%;
+  font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem) !important;
+  font-style: italic;
+  color: #9ec9e7;
+  text-align: right;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
 @media only screen and (min-width: 768px) {
   .genCite {
     width: 60vw;
@@ -17,28 +39,4 @@
     width: 50vw;
     height: 20vw;
   }
-}
-
-#citation {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(1rem, 0.9286rem + 0.3571vw, 1.25rem);
-  letter-spacing: 0.05rem;
-  text-align: left;
-}
-@media only screen and (min-width: 768px) {
-  #citation {
-    margin: 3rem 0 1rem;
-  }
-}
-
-#auteur {
-  width: 100%;
-  font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem) !important;
-  font-style: italic;
-  color: #9ec9e7;
-  text-align: right;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */
