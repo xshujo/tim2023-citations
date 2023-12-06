@@ -31,3 +31,10 @@ function affiche_citation()
 }
 
 add_shortcode('citations', 'affiche_citation');
+
+add_action('admin_menu', 'generateur_citation_setup_menu');
+
+function generateur_citation_setup_menu()
+{
+    add_menu_page('Générateur de citations', 'Citations', 'manage_options', 'generateur-citations', 'affiche_citation');
+}
