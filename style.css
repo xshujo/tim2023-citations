@@ -5,22 +5,23 @@
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  margin: 0 2rem !important;
+  gap: 2rem;
 }
 .genCite #citation {
   width: 100% !important;
+  height: 70%;
   font-family: "Montserrat", sans-serif !important;
   font-size: clamp(0.875rem, 0.7857rem + 0.4464vw, 1.5rem) !important;
   letter-spacing: 0.05rem !important;
   text-align: left !important;
-}
-@media only screen and (min-width: 768px) {
-  .genCite #citation {
-    margin: 3rem 0 1rem !important;
-  }
+  margin: 0 !important;
+  display: flex !important;
+  align-items: flex-end !important;
+  align-self: flex-end !important;
 }
 .genCite #auteur {
   width: 100% !important;
+  height: 30%;
   font-size: clamp(0.75rem, 0.6786rem + 0.3571vw, 1.25rem) !important;
   font-style: italic !important;
   color: #9ec9e7 !important;
